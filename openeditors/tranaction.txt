@@ -1,0 +1,2 @@
+Withdrawn: 5000
+Remaining balance: 5000
