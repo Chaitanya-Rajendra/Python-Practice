@@ -62,13 +62,58 @@
 # 1234(correct), 123(wrong), 12345(wrong)
 # r"^\d{4, 6}$" - means 4 to 6 digits are valid
 
-import re
-value = input()
-pattern = r"^\d+$"
+# import re
+# value = input()
+# pattern = r"^\d+$"
 
-if re.fullmatch(pattern, value):
-    print("Valid input")
-else:
-    print("Invalid input")
+# if re.fullmatch(pattern, value):
+#     print("Valid input")
+# else:
+#     print("Invalid input")
+
+
+# import re
+# phone = input("enter number: ")
+# pattern = r"^[6-9]\d{9}$"
+
+# if re.fullmatch(pattern, phone):
+#     print("Valid phone number")
+# else:
+#     print("Invalid phone number")
+
+
+# Email Validation
+# Username@domain.com
+
+# import re
+# email = input("enter email: ")
+# pattern = r"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+# if re.fullmatch(pattern, email):
+#     print("Valid email")
+# else:
+#     print("Invalid email")
+
+# r"^[\w.-]+@[\w.-]+\.[a-zA-Z]{2,}$"
+
+# import re
+# name= input("enter name: ")
+# password = input("enter password: ")
+
+# # Name
+# if re.fullmatch(r"^[a-zA-Z ]+", name):
+#     print("Valid name")
+# else:
+#     print("Invalid name")
+
+# pattern = r"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$"
+# if re.fullmatch(pattern, password):
+#     print("Valid password")
+# else:
+#     print("Invalid password")
+
+# r- raw String
+# ^- start of string
+# ?=. - positive lookhead
+
 
 
